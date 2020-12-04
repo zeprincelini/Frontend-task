@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Skooleeo test</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+        <div class="row">
+          <!-- column one start -->
+            <div class="col-sm-2">
+                <div class="shadow">
+                  <!-- logo start -->
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="logo ml-2 mt-2">
+                        <img src="img/logo.png" width="100px" height="auto" alt="logo">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- logo end -->
+                  <!-- schl profile start -->
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="schl">
+                        <div class="profile-img">
+                          <img src="img/IMG_20201125_180633.jpg" class="rounded-circle" width="50px" height="50px" alt="">
+                        </div>
+                        <div class="profile-details">
+                          <h5>Greensprings School</h5>
+                          <p>12a Reed Rd, Ikoyi</p>
+                          <p>Lagos, Nigeria</p>
+                          <p class="mt-1 time">Last Accessed: <span class="time">45 Minutes Ago</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- schl profile end -->
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="side-bar">
+                        <ul class="navi">
+                          <li>Dashboard</li>
+                          <li>Students</li>
+                          <li>Parents</li>
+                          <li>Classes</li>
+                          <li>Courses</li>
+                          <li>Messages</li>
+                          <li>Examinations</li>
+                          <li>Activity Feed</li>
+                          <li class="active">Timetable</li>
+                          <li>Events</li>
+                          <li>Analytics</li>
+                          <hr>
+                          <li>Settings</li>
+                          <li>Log Out</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          <!-- column one end -->
+
+          <!-- column two start -->
+          <div class="col-sm-8">
+            <div class="shadow">
+              <div class="row"> <!-- mid-top begin -->
+                <div class="col-sm-12">
+                  <div class="mid-top d-flex">
+                    <div class="search" style="flex: 1;">
+                      <form action="">
+                        <div class="input-group mt-2">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="search-addon">
+                              <span class="iconify" data-icon="ant-design:search-outlined" data-inline="true"></span>
+                            </span>
+                          </div>
+                          <input type="text" class="form-control" placeholder="search">
+                        </div>
+                      </form>
+                    </div>
+                    <div class="message-bar d-flex ml-4 mr-2">
+                      <div class="mail mt-2">
+                        <span class="iconify" data-icon="codicon:mail" data-inline="true"></span>
+                      </div>
+                      <div class="notification mt-2">
+                        <span class="iconify" data-icon="ant-design:bell-filled" data-inline="true"></span>
+                      </div>
+                      <div class="profile mt-1">
+                        <img src="https://picsum.photos/40/40" class="rounded-circle" alt="profile pic">
+                        <span>Profile Name</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- mid-top end -->
+                  <!-- mid-exam review begin -->
+              <div class="row">
+                <div class="col-sm-12">
+                  <h4 class="mt-4">
+                    Examination Review
+                  </h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card shadow mt-2">
+                        <div class="card-header">
+                          <span class="dash"></span>
+                          1
+                        </div>
+                        <div class="card-body">
+                          <div class="d-flex" style="justify-content: space-between;">
+                            Upcoming Exams
+                          <span class="iconify" data-icon="bx:bxs-calendar" data-inline="true"></span>
+                        </div>
+                          </div>
+                        <div class="card-footer">
+                          Next 7 Days
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow mt-2">
+                        <div class="card-header">
+                          <span class="dash"></span>
+                          5
+                        </div>
+                        <div class="card-body">
+                          <div class="d-flex" style="justify-content: space-between;">
+                            Pending Result Sheets
+                          <span class="iconify" data-icon="bx:bxs-calendar" data-inline="true"></span>
+                        </div>
+                        </div>
+                        <div class="card-footer">
+                          Next 7 Days
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow mt-2">
+                        <div class="card-header">
+                          <span class="dash"></span>
+                          3
+                        </div>
+                        <div class="card-body">
+                          <div class="d-flex" style="justify-content: space-between;">
+                            Uploaded Result Sheets
+                          <span class="iconify" data-icon="bx:bxs-calendar" data-inline="true"></span>
+                        </div>
+                        </div>
+                        <div class="card-footer">
+                          Next 7 Days
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow mt-2">
+                        <div class="card-header">
+                          <span class="dash"></span>
+                          5
+                        </div>
+                        <div class="card-body">
+                          <div class="d-flex" style="justify-content: space-between;">
+                            Pending Question Papers
+                          <span class="iconify" data-icon="bx:bxs-calendar" data-inline="true"></span>
+                        </div>
+                        </div>
+                        <div class="card-footer">
+                          Next 7 Days
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow mt-2">
+                        <div class="card-header">
+                          <span class="dash"></span>
+                          8
+                        </div>
+                        <div class="card-body">
+                          <div class="d-flex" style="justify-content: space-between;">
+                            Uploaded Question Papers
+                          <span class="iconify" data-icon="bx:bxs-calendar" data-inline="true"></span>
+                        </div>
+                        </div>
+                        <div class="card-footer">
+                          Next 7 Days
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  <!-- mid-exam begin end -->
+
+                  <!-- mid active-classes begin -->
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="shadow">
+                    <div class="row">
+                      <div class="col-sm-7">
+                       <div class="shadow">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="shadow">
+                              <div class="d-flex mt-4" style="justify-content: space-between;">
+                                <div>
+                                  <h5  class="ml-2">Active Classes</h5>
+                                </div>
+                                <div>
+                                  <p style="color: red;" class="mr-2">onine</p>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-12">
+                                  <table class="table table-borderless">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Time</th>
+                                        <th scope="col">Grade</th>
+                                        <th scope="col">Subject</th>
+                                        <th scope="col">Students</th>
+                                        <th scope="col">Sub Teacher</th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>09:00AM - 10:00AM</td>
+                                        <td>JSS 1</td>
+                                        <td>Mathematics</td>
+                                        <td>30</td>
+                                        <td><img src="https://picsum.photos/20/20" class="rounded-circle"></td>
+                                        <td>...</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                    <div class="d-flex mt-4" style="justify-content: space-between;">
+                                      <div>
+                                        <h5  class="ml-2">Upcoming Lessons</h5>
+                                      </div>
+                                      <div>
+                                        <p class="mr-2">view all</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                    <!-- settings and filter -->
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                    <table class="table table-borderless" id="mytable">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">Time</th>
+                                          <th scope="col">Grade</th>
+                                          <th scope="col">Subject</th>
+                                          <th scope="col">Students</th>
+                                          <th scope="col">Sub Teacher</th>
+                                          <th scope="col"></th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>09:00AM - 10:00AM</td>
+                                          <td>JSS 1</td>
+                                          <td>Mathematics</td>
+                                          <td>30</td>
+                                          <td><img src="https://picsum.photos/20/20" class="rounded-circle"></td>
+                                          <td>...</td>
+                                        </tr>
+                                        <tr>
+                                          <td>09:00AM - 10:00AM</td>
+                                          <td>JSS 1</td>
+                                          <td>Mathematics</td>
+                                          <td>30</td>
+                                          <td><img src="https://picsum.photos/20/20" class="rounded-circle"></td>
+                                          <td>...</td>
+                                        </tr>
+                                        <tr>
+                                          <td>09:00AM - 10:00AM</td>
+                                          <td>JSS 1</td>
+                                          <td>Mathematics</td>
+                                          <td>30</td>
+                                          <td><img src="https://picsum.photos/20/20" class="rounded-circle"></td>
+                                          <td>...</td>
+                                        </tr>
+                                        <tr>
+                                          <td>09:00AM - 10:00AM</td>
+                                          <td>JSS 1</td>
+                                          <td>Mathematics</td>
+                                          <td>30</td>
+                                          <td><img src="https://picsum.photos/20/20" class="rounded-circle"></td>
+                                          <td>...</td>
+                                        </tr>
+                                        <tr>
+                                          <td>09:00AM - 10:00AM</td>
+                                          <td>JSS 1</td>
+                                          <td>Mathematics</td>
+                                          <td>30</td>
+                                          <td><img src="https://picsum.photos/20/20" class="rounded-circle"></td>
+                                          <td>...</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                       </div>
+                      </div>
+                      <div class="col-sm-5">
+                        <div class="shadow">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="mt-4 shadow">
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                    <h5 class="ml-2">Exam Results(Pending)</h5>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                    <table class="table table-borderless">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">Subject</th>
+                                          <th scope="col">Class</th>
+                                          <th scope="col">Progress</th>
+                                          <th scope="col"></th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>Mathematics</td>
+                                          <td>JSS 1</td>
+                                          <td>75%</td>
+                                          <td>--</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Mathematics</td>
+                                          <td>JSS 1</td>
+                                          <td>75%</td>
+                                          <td>--</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Mathematics</td>
+                                          <td>JSS 1</td>
+                                          <td>75%</td>
+                                          <td>--</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Mathematics</td>
+                                          <td>JSS 1</td>
+                                          <td>75%</td>
+                                          <td>--</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Mathematics</td>
+                                          <td>JSS 1</td>
+                                          <td>75%</td>
+                                          <td>--</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+              
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="row">
+                                <div class="col-sm-12">
+                                  <div class="d-flex mt-4" style="justify-content: space-between;">
+                                    <div>
+                                      <h5  class="ml-2">Upcoming Events</h5>
+                                    </div>
+                                    <div>
+                                      <p class="mr-2">view all</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-12">
+                                  <table class="table table-borderless">
+                                    <!-- <thead>
+                                      <tr>
+                                        <th scope="col">Subject</th>
+                                        <th scope="col">Class</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead> -->
+                                    <tbody>
+                                      <tr>
+                                        <td class="date"><h5>Sep</h5><h5>11</h5></td>
+                                        <td>Teachers day</td>
+                                        <td>11:30AM - 01:00AM</td>
+                                        <td>--</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Teachers day</td>
+                                        <td>JSS 1</td>
+                                        <td></td>
+                                        <td>--</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Teachers day</td>
+                                        <td>JSS 1</td>
+                                        <td></td>
+                                        <td>--</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  <!-- mid active-classes end -->
+            </div>
+          </div>
+        <!-- column two end -->
+
+        <!-- column three start -->
+        <div class="col-sm-2">
+          <div class="shadow">
+           
+          </div>
+        </div>
+      <!-- column three end -->
+        </div>
+    </div>
+       
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+	</body>
+	
+</html>

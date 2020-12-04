@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Skooleeo test</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+        <div class="row">
+          <!-- column one start -->
+            <div class="col-sm-2">
+                <div class="shadow">
+                  <!-- logo start -->
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="logo ml-2 mt-2">
+                        <img src="img/logo.png" width="100px" height="auto" alt="logo">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- logo end -->
+                  <!-- schl profile start -->
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="schl">
+                        <div class="profile-img">
+                          <img src="img/IMG_20201125_180633.jpg" class="rounded-circle" width="50px" height="50px" alt="">
+                        </div>
+                        <div class="profile-details">
+                          <h5>Greensprings School</h5>
+                          <p>12a Reed Rd, Ikoyi</p>
+                          <p>Lagos, Nigeria</p>
+                          <p class="mt-1 time">Last Accessed: <span class="time">45 Minutes Ago</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- schl profile end -->
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="side-bar">
+                        <ul class="navi">
+                          <li>Dashboard</li>
+                          <li>Students</li>
+                          <li>Parents</li>
+                          <li>Classes</li>
+                          <li>Courses</li>
+                          <li>Messages</li>
+                          <li>Examinations</li>
+                          <li>Activity Feed</li>
+                          <li class="active">Timetable</li>
+                          <li>Events</li>
+                          <li>Analytics</li>
+                          <hr>
+                          <li>Settings</li>
+                          <li>Log Out</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          <!-- column one end -->
+
+          <!-- column two start -->
+          <div class="col-sm-8">
+            <div class="shadow">
+              <div class="row"> <!-- mid-top begin -->
+                <div class="col-sm-12">
+                  <div class="mid-top d-flex">
+                    <div class="search" style="flex: 1;">
+                      <form action="">
+                        <div class="input-group mt-2">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="search-addon">
+                              <span class="iconify" data-icon="ant-design:search-outlined" data-inline="true"></span>
+                            </span>
+                          </div>
+                          <input type="text" class="form-control" placeholder="search">
+                        </div>
+                      </form>
+                    </div>
+                    <div class="message-bar d-flex ml-4 mr-2">
+                      <div class="mail mt-2">
+                        <span class="iconify" data-icon="codicon:mail" data-inline="true"></span>
+                      </div>
+                      <div class="notification mt-2">
+                        <span class="iconify" data-icon="ant-design:bell-filled" data-inline="true"></span>
+                      </div>
+                      <div class="profile mt-1">
+                        <img src="https://picsum.photos/40/40" class="rounded-circle" alt="profile pic">
+                        <span>Profile Name</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- mid-top end -->
+              <div class="row">   <!-- mid-mid begin -->
+                <div class="col-sm-12">
+                  <h4 class="mt-3">Time Table</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-9">
+                  <div id="calendar">
+
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      hhh
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h5 style="font-size: 14px;">Upcoming Lessons</h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="lesson">
+                        <ul class="lessons-nav">
+                          <li class="upcoming-lessons">
+                            <p class="date">Aug 22 Tuesday | 8AM - 4PM</p>
+                            <h5 style="font-size: 14px;">Basic Mathematics</h5>
+                            <span class="class">Class Basic 1-A</span>
+                          </li>
+                          <li class="upcoming-lessons">
+                            <p class="date">Aug 22 Tuesday | 8AM - 4PM</p>
+                            <h5 style="font-size: 14px;">Algebra</h5>
+                            <span class="class">Class Basic 2-A</span>
+                          </li>
+                          <li class="upcoming-lessons">
+                            <p class="date">Aug 22 Tuesday | 8AM - 4PM</p>
+                            <h5 style="font-size: 14px;">Geometry</h5>
+                            <span class="class">Class Basic 1-A</span>
+                          </li>
+                          <li class="upcoming-lessons">
+                            <p class="date">Aug 22 Tuesday | 8AM - 4PM</p>
+                            <h5 style="font-size: 14px;">Basic Mathematics</h5>
+                            <span class="class">Class Basic 3-A</span>
+                          </li>
+                          <li class="upcoming-lessons">
+                            <p class="date">Aug 20 Tuesday | 8AM - 4PM</p>
+                            <h5 style="font-size: 14px;">Algebra</h5>
+                            <span class="class">Class Basic 3-C</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>     <!-- mid-mid end -->
+            </div>
+          </div>
+        <!-- column two end -->
+
+        <!-- column three start -->
+        <div class="col-sm-2">
+          <div class="shadow" style="min-height: 100vh;">
+           
+          </div>
+        </div>
+      <!-- column three end -->
+        </div>
+    </div>
+       
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+	</body>
+	
+</html>

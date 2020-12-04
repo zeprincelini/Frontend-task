@@ -1,0 +1,301 @@
+body{
+    overflow-x: hidden;
+}
+/* .col-sm-2{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+/* .logo{
+    margin-top: 10px;
+}
+.profile-details h5{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.profile-details p{
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+.profile-details p:last-child{
+    font-size: 10px;
+}
+.nav-menu{
+    margin-top: 30px;
+}
+
+.active{
+    background-color:#82CF61 !important;
+    border-left: 2px solid red;
+    color: #27480C !important;
+}
+.nav-menu li:hover{
+    background-color:#82CF61 !important;
+    border-left: 2px solid red;
+    color: #27480C;
+}
+.nav-menu a{
+    color: #000000;
+}
+
+form .iconify{
+    color: #27480C;
+}
+
+.mid-profile .iconify{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.mid-profile .img{
+     border: 2px solid #A38347;
+}
+.header h4{
+    color:#27480C;;
+}
+.profile-card h5{
+    font-size: 10px;
+    font-weight: bold;
+}
+.profile-card p{
+    font-size: 10px;
+}
+.icon{
+    border-radius: 50%;
+    color: #27480C;
+    background-color: #82CF61;
+    width: 50px;
+    height: auto;
+    text-align: center;
+    display: table-cell;
+}
+.icon .iconify{
+    position: relative;
+    width: 30px;
+    height: auto; 
+    vertical-align: middle;
+}
+.card-title h5,p{
+    font-size: 10px;
+}
+.dis{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash{
+    width: 20px;
+    height: 4px;
+    background-color: red;
+}
+.online{
+    color: red;
+    font-size: 13px;
+}
+.view{
+    font-size: 13px;
+}
+table tr th{
+    font-size: 13px;
+}
+table tr td{
+    font-size: 12px;
+}
+.calendar{
+  
+} */
+
+/*---*/
+.schl{
+    display: flex; 
+    margin-top: 30px; 
+    justify-content: space-around;
+}
+
+.profile-img{
+    margin-top: 9px;
+}
+
+.profile-details h5{
+    font-size: 12px;
+}
+
+.profile-details p{
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+p .time{
+    font-size: 8px;
+}
+
+.side-bar{
+    margin-top: 20px;
+}
+
+.navi{
+    padding-left: 0px;
+}
+
+.navi li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navi li:active{
+    background-color: #82CF61;
+    border-left: 2px solid orange;
+    /* font-weight: bold; */
+}
+
+.navi li:hover{
+    background-color: #82CF61;
+    border-left: 2px solid orange;
+}
+
+.active{
+    background-color: #82CF61;
+    border-left: 2px solid orange;
+}
+
+.card{
+    height: 130px;
+}
+
+.card-header{
+    font-weight: bold;
+    background-color: #ffffff !important;
+    border-bottom: none !important;
+    padding: 5px!important;
+    /* padding-right: 5px !important; */
+}
+
+.card-body{
+    font-size: 12px;
+    padding: 5px!important;
+}
+.dash{
+    display: block;
+    background: red;
+    width: 12px;
+    height: 3px;
+}
+
+.card-body .iconify{
+    font-size: 19px;
+    background-color: #82CF61;
+    border-radius: 50%;
+}
+
+.card-footer{
+    font-size: 12px;
+    background-color: #ffffff !important;
+    border-top: none !important;
+    padding: 5px!important;
+}
+
+table{
+    font-size: 12px;
+}
+
+.date h5{
+    padding: 0px;
+}
+
+.table .date{
+    padding: 0px !important;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.date{
+    background: #27480C;
+    color: #ffffff;
+}
+
+.mail, .notification{
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.lesson-nav{
+    padding-left: 0px;
+}
+
+.upcoming-lessons{
+    font-size: 10px;
+}
+
+::marker{
+    color: green;
+}
+
+.lesson{
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.lessons-nav{
+    padding-left: 10px; 
+}
+
+.lessons-nav li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.class{
+    background-color: orangered;
+    color: #ffffff;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    /* width: 60%; */
+}
+
+/*messages*/
+
+.chat-height{
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+.chat-height-right{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+.mybuttons .btn-danger{
+    background-color: #E9ECEF !important;
+    border-color: #E9ECEF !important;
+}
+
+.profile-logo{
+    width: 30px;
+    height: auto;
+    background: orange;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.texts img{
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+}
+
+.date-seen{
+    font-size: 11px;
+}
+
+.chat-nav:hover{
+    background-color: #82CF61;
+    border-left: 2px solid #27480C;
+}
