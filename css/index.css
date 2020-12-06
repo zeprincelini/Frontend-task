@@ -299,3 +299,20 @@ table{
     background-color: #82CF61;
     border-left: 2px solid #27480C;
 }
+
+.my-card{
+    height: auto !important;
+}
+
+.my-card-header{
+    padding: .75rem 1.25rem !important;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03) !important;
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+}
+
+.my-footer{
+    padding: .75rem 1.25rem !important;
+    background-color: rgba(0,0,0,.03) !important;
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+}
